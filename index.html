@@ -111,6 +111,9 @@
         clocktimebg.innerHTML='88:88'
         clocktimesmallbg.style.left = '213px'
       }
+      if(hour<10){
+        hour = '0'+hour;
+      }
       minute = dateObj.getMinutes();
       if(minute<10){
         minute='0'+minute;
